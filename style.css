@@ -8,7 +8,6 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  line-height: 25px;
 }
 
 header {
@@ -32,8 +31,8 @@ li {
 }
 
 #navbar li a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 .login {
@@ -47,15 +46,15 @@ li {
   align-items: center;
 }
 
-header h1 {
+ h1 {
   margin-bottom: 60px;
-  font-size: 3.5rem;
+  font-size: 3rem;
+  line-height:3rem;
+  letter-spacing: -3px;
 }
 
-header p {
+ p {
   font-size: 1.2rem;
-  width: 60%;
-  margin-bottom: 20px;
 }
 
 /* UTILS */
@@ -84,11 +83,23 @@ header p {
   align-items: center;
 }
 
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-white {
+  background-color: #dedede;
+}
+
 .w-25 {
   width: 25%;
 }
+
 .w-50 {
   width: 50%;
+}
+.w-60 {
+  width: 60%;
 }
 
 .w-100 {
@@ -97,6 +108,18 @@ header p {
 
 .py20 {
   padding: 20px 0;
+}
+
+.py-50 {
+    padding: 100px 0;
+}
+
+.pt-1 {
+    padding-top: 2rem;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
 }
 
 .container {
@@ -122,4 +145,14 @@ header p {
 .btn-small {
   padding: 10px 15px;
   font-size: 0.9rem;
+}
+
+.col-large {
+  width: 60%;
+
+}
+
+.col-small {
+  width: 40%;
+  padding: 4rem ;
 }
