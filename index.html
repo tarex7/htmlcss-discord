@@ -19,12 +19,16 @@
   <body>
     <!-- Header -->
     <header>
+
       <!-- Navbar -->
-      <nav class="d-flex py-20 debug-border" id="navbar">
-        <div class="container d-flex w-100 debug-border">
+      <nav class="d-flex py-20 " id="navbar">
+
+        <div class="container d-flex w-100 ">
+
           <div class="logo w-25 d-flex">
-            <img id="logo" src="./img/logo.svg" alt="" />
+            <a href="#"><img id="logo"  src="./img/logo.svg" alt="" /></a>
           </div>
+
           <div class="links w-50">
             <ul class="d-flex sp-around">
               <li><a href="#">Scarica</a></li>
@@ -34,13 +38,18 @@
               <li><a href="#">Assistenza</a></li>
             </ul>
           </div>
+
           <div class="login w-25">
             <button class="btn btn-small">Accedi</button>
           </div>
+          
         </div>
+
       </nav>
-      <div class="jumbotron debug-border">
-        <div class="header-content d-flex flex-col container debug-border">
+
+
+      <div class="jumbotron ">
+        <div class="header-content d-flex flex-col container ">
           <h1>Il tuo posto per parlare</h1>
           <p class="mb-20 w-60">
             Che tu faccia parte di un club scolastico, gruppo di gamer, comunità
@@ -49,8 +58,8 @@
             chiacchierare ogni giorno e ritrovarsi più spesso.
           </p>
           <div class="buttons">
-            <button class="btn">Scarica per Mac</button>
-            <button class="btn btn-dark">Apri Discord nel tuo browser</button>
+            <button class="btn"><i class="mx-10 fa-solid fa-arrow-down"></i>Scarica per Mac</button>
+            <button class="mx-10 btn btn-dark">Apri Discord nel tuo browser</button>
           </div>
         </div>
       </div>
@@ -61,11 +70,11 @@
       <!-- Section 1 -->
       <section>
         <div class="container d-flex py-50">
-          <div class="col-large debug-border">
-            <img class="pt-1 debug-border" src="./img/item1.svg" alt="" />
+          <div class="col-large ">
+            <img class="pt-1 " src="./img/item1.svg" alt="" />
           </div>
 
-          <div class="col-small debug-border">
+          <div class="col-small ">
             <h1>
               Un luogo a invito con tutto lo spazio necessario per parlare
             </h1>
@@ -77,16 +86,18 @@
           </div>
         </div>
       </section>
+      
+      <div class="wave"></div>
 
       <!-- Section 2 -->
 
       <section class="bg-grey">
         <div class="container d-flex py-50 reverse">
-          <div class="col-large debug-border">
-            <img class="pt-1 debug-border" src="./img/item2.svg" alt="" />
+          <div class="col-large ">
+            <img class="pt-1 " src="./img/item2.svg" alt="" />
           </div>
 
-          <div class="col-small debug-border">
+          <div class="col-small ">
             <h1>Dove trovarsi é facile</h1>
             <p>
               Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel
@@ -97,15 +108,17 @@
         </div>
       </section>
 
+      <div class="wave flipped"></div>
+
       <!-- Section 3 -->
 
       <section>
         <div class="container d-flex py-50">
-          <div class="col-large debug-border">
-            <img class="pt-1 debug-border" src="./img/item3.svg" alt="" />
+          <div class="col-large ">
+            <img class="pt-1 " src="./img/item3.svg" alt="" />
           </div>
 
-          <div class="col-small debug-border">
+          <div class="col-small ">
             <h1>Da pochi a un fandom</h1>
             <p>
               Dai inizio a una community di qualsiasi dimensione con strumenti
@@ -116,8 +129,14 @@
         </div>
       </section>
 
-      <section class="bg-grey">
-        <div class="container py-50 align-center">
+      <div class="wave"></div>
+
+
+      <!-- Section 4 -->
+
+
+      <section class="bg-grey pb-200">
+        <div class="container py-50 align-center i">
           <h1>Tecnologia affidabile per tenersi in contatto</h1>
           <p>
             Video e audio a bassa latenza ti faranno sentire come se foste tutti
@@ -125,18 +144,81 @@
             streaming, o riunitevi in una sessione di disegno con la
             condivisione schermo.
           </p>
-          <img class="debug-border py-20" src="./img/item4-big.svg" alt="" />
+          <img class=" py-20" src="./img/item4-big.svg" alt="" />
         </div>
-        <h2 class="align-center mb-20">
-          Pronto a iniziare la tua avventura?
-        </h2>
-        <button class="btn btn-secondary block">Scarica per Mac</button>
+        <div class="stars d-flex j-center ">
+
+            <img class="align center" src="./img/stars.svg" alt="">
+        </div>
+        <h2 class="align-center mb-50">Pronto a iniziare la tua avventura?</h2>
+        <button class="btn btn-secondary block"><i class="mx-10 fa-solid fa-arrow-down"></i>Scarica per Mac</button>
       </section>
     </main>
     <!-- Footer -->
     <footer>
-        
+      <div class="container py-50">
+        <div class="footer-top d-flex">
+          <div class=" p-20 mx-50 ">
+            <h2 class="secondary-color mb-20">Il tuo posto per parlare</h1>
+            <img id="flag" class="mx-2" src="./img/ita.png" alt=""><a class="white" href="">Italiano</a><i class="white mx-2 fa-solid fa-angle-down"></i>
+            <!-- Social -->
+            <div class="social my-10">
+                <a href="#"><i class="white mr-15 fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="white mx-15 fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="white mx-15 fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="white mx-15 fa-brands fa-youtube "></i></a>
+            </div>
+          </div>
+          <div class="col-large d-flex ">
+            <div class="w-25 ">
+              <ul class=" p-20">
+                <li  class="my-10 secondary-color bold ">Prodotto</li>
+                <li class="my-10"><a href="#">Scarica</a></li>
+                <li class="my-10"><a href="#">Perché Discord</a></li>
+                <li class="my-10"><a href="#">Nitro</a></li>
+                <li class="my-10"><a href="#">Sicurezza</a></li>
+                <li class="my-10"><a href="#">Assistenza</a></li>
+              </ul>
+            </div>
+            <div class="w-25 ">
+                <ul class=" p-20">
+                    <li class="my-10 secondary-color bold">Compagnia</li>
+                    <li class="my-10"><a href="#">Chi siamo</a></li>
+                    <li class="my-10"><a href="#">Lavora con noi</a></li>
+                    <li class="my-10"><a href="#">Marchio</a></li>
+                    <li class="my-10"><a href="#">Redazione</a></li>
+                    <li class="my-10"><a href="#">Negozio</a></li>
+                  </ul>
+            </div>
+            <div class="w-25 ">
+                <ul class=" p-20">
+                    <li class="my-10 secondary-color bold">Risorse</li>
+                    <li class="my-10"><a href="#">Scarica</a></li>
+                    <li class="my-10"><a href="#">Perchè Discord</a></li>
+                    <li class="my-10"><a href="#">Nitro</a></li>
+                    <li class="my-10"><a href="#">Sicurezza</a></li>
+                    <li class="my-10"><a href="#">Assistenza</a></li>
+                    <li class="my-10"><a href="#">Scarica</a></li>
+                    <li class="my-10"><a href="#">Perché Discord</a></li>
+                    <li class="my-10"><a href="#">Nitro</a></li>
+                    <li class="my-10"><a href="#">Sicurezza</a></li>
+                    <li class="my-10"><a href="#">Assistenza</a></li>
+                </ul>
+            </div>
+            <div class="w-25  p-20">
+                <li class="my-10 secondary-color bold">Norme</li>
+                <li class="my-10"><a href="#">Perché Discord</a></li>
+                <li class="my-10"><a href="#">Nitro</a></li>
+                <li class="my-10"><a href="#">Sicurezza</a></li>
+                <li class="my-10"><a href="#">Assistenza</a></li>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom d-flex sp-between py-20">
+            <a href="#"><img src="./img/logo.svg" alt=""></a>
+            <button class="btn btn-small btn-secondary">Registrati</button>
+        </div>
+      </div>
     </footer>
   </body>
-  z
 </html>
