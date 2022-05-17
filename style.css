@@ -78,6 +78,10 @@ li {
     margin: 0 50px;
 }
 
+.align-center {
+    text-align: center;
+}
+
 #navbar {
   background-color: #294db5;
 }
@@ -109,7 +113,7 @@ li {
   width: 100%;
 }
 
-.py20 {
+.py-20 {
   padding: 20px 0;
 }
 
@@ -145,6 +149,11 @@ li {
   color: #fff;
 }
 
+.btn-secondary {
+  background-color: #6c7ab7;
+  color: #fff;
+}
+
 .btn-small {
   padding: 10px 15px;
   font-size: 0.9rem;
@@ -162,4 +171,9 @@ li {
 
 .reverse {
     flex-direction: row-reverse;
+}
+
+.block {
+    display: block;
+    margin: 0 auto;
 }
