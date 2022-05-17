@@ -10,9 +10,9 @@
   <body>
     <!-- Header -->
     <header>
-      <div class="jumbotron debug-border">
-        <!-- Navbar -->
-        <nav class="d-flex container py20 debug-border" id="navbar">
+      <!-- Navbar -->
+      <nav class="d-flex py20 debug-border" id="navbar">
+        <div class="container d-flex w-100 debug-border">
           <div class="logo w-25 d-flex">
             <img id="logo" src="./img/logo.svg" alt="" />
           </div>
@@ -28,8 +28,10 @@
           <div class="login w-25">
             <button class="btn">Accedi</button>
           </div>
-        </nav>
-        <div class="header-content container debug-border">
+        </div>
+      </nav>
+      <div class="jumbotron debug-border">
+        <div class="header-content d-flex flex-col container debug-border">
           <h1>Il tuo posto per parlare</h1>
           <p class="">
             Che tu faccia parte di un clubscolastico, gruppo di gamer, comunità
@@ -37,8 +39,10 @@
             che vuole passare il tempo assieme, Discord rende più facile
             chiacchierare ogni giorno e ritrovarsi più spesso.
           </p>
-          <button class="btn">Scarica per Mac</button>
-          <button class="btn">Apri Discord nel tuo browser</button>
+          <div class="buttons">
+            <button class="btn">Scarica per Mac</button>
+            <button class="btn">Apri Discord nel tuo browser</button>
+          </div>
         </div>
       </div>
     </header>
