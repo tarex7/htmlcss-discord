@@ -50,7 +50,6 @@ li {
   margin-bottom: 60px;
   font-size: 3rem;
   line-height:3rem;
-  letter-spacing: -3px;
 }
 
  p {
@@ -75,6 +74,10 @@ li {
   justify-content: space-around;
 }
 
+.mx-50 {
+    margin: 0 50px;
+}
+
 #navbar {
   background-color: #294db5;
 }
@@ -87,7 +90,7 @@ li {
   background-color: #fff;
 }
 
-.bg-white {
+.bg-grey {
   background-color: #dedede;
 }
 
@@ -155,4 +158,8 @@ li {
 .col-small {
   width: 40%;
   padding: 4rem ;
+}
+
+.reverse {
+    flex-direction: row-reverse;
 }
