@@ -44,13 +44,14 @@ li {
 }
 
 header h1 {
-  margin-bottom: 30px;
-  font-size: 3rem;
+  margin-bottom: 60px;
+  font-size: 3.5rem;
 }
 
 header p {
-  margin: 20px auto;
-  width: 50%;
+  font-size: 1.2rem;
+  width: 60%;
+  margin-bottom: 20px;
 }
 
 /* UTILS */
@@ -100,10 +101,21 @@ header p {
 }
 
 .btn {
-  padding: 10px 20px;
+  padding: 15px 20px;
   border: none;
   border-radius: 50px;
   font-weight: bold;
   margin-right: 20px;
   background-color: #fff;
+  font-size: 1rem;
 }
+
+.btn-dark {
+  background-color: #333;
+
+}
+
+.btn-small {
+
+}
+
